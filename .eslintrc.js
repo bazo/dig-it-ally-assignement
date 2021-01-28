@@ -10,6 +10,7 @@ module.exports = {
 	env: {
 		browser: true,
 		es6: true,
+		node: true,
 	},
 	extends: [
 		"eslint:recommended",
@@ -33,7 +34,7 @@ module.exports = {
 		"import/first": "error",
 		"import/newline-after-import": "error",
 		"import/no-duplicates": "error",
-		"react-hooks/exhaustive-deps": "warn",
+		//"react-hooks/exhaustive-deps": "warn",
 		"@typescript-eslint/ban-ts-comment": "warn",
 		"react/prop-types": "off",
 		"react/react-in-jsx-scope": "off",
