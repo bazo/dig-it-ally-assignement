@@ -7,6 +7,7 @@
 		"jsx": "react-jsx",
 		"baseUrl": "./",
 		"paths": {
+			"@api": ["src/api"],
 			"@app/*": ["src/app/*"],
 			"@components/*": ["src/components/*"],
 			"@features/*": ["src/features/*"],

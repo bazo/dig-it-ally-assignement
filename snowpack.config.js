@@ -1,6 +1,3 @@
-// eslint-disable-next-line @typescript-eslint/no-var-requires
-const tsconfig = require("./tsconfig.json");
-
 /** @type {import("snowpack").SnowpackUserConfig } */
 module.exports = {
 	mount: {
@@ -39,6 +36,7 @@ module.exports = {
 	},
 	alias: {
 		src: "./src",
+		"@api": "./src/api",
 		"@app": "./src/app",
 		"@components": "./src/components",
 		"@features": "./src/features",
